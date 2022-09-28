@@ -99,15 +99,15 @@ data = {
   },
   "date": {
     "value": today.strftime('%Y年%m月%d日'),
-    "color": ('#a5dee4')
+    "color": ('#434343')
   },
   "week_day": {
     "value": get_week_day(),
-    "color": get_random_color()
+    "color": ('#787878')
   },
   "weather": {
     "value": weather['weather'],
-    "color": get_random_color()
+    "color": ('#fffffb')
   },
   "humidity": {
     "value": weather['humidity'],
@@ -127,27 +127,27 @@ data = {
   },
   "temperature": {
     "value": math.floor(weather['temp']),
-    "color": get_random_color()
+    "color": ('#646a58')
   },
   "highest": {
     "value": math.floor(weather['high']),
-    "color": get_random_color()
+    "color": ('#465d4c')
   },
   "lowest": {
     "value": math.floor(weather['low']),
-    "color": get_random_color()
+    "color": ('#86a697')
   },
   "love_days": {
     "value": get_memorial_days_count(),
-    "color": get_random_color()
+    "color": ('#006284')
   },
   "birthday_left": {
     "value": get_birthday_left(),
-    "color": get_random_color()
+    "color": ('#69b0ac')
   },
   "words": {
     "value": get_words(),
-    "color": get_random_color()
+    "color": ('#8a6bbe')
   },
 }
 
