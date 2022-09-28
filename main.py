@@ -95,7 +95,7 @@ if weather is None:
 data = {
   "city": {
     "value": city,
-    "color": get_random_color()
+    "color": #A5DEE4()
   },
   "date": {
     "value": today.strftime('%Y年%m月%d日'),
