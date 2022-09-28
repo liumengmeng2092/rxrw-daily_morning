@@ -99,7 +99,7 @@ data = {
   },
   "date": {
     "value": today.strftime('%Y年%m月%d日'),
-    "color": get_random_color()
+    "color": get_random_color('#a5dee4')
   },
   "week_day": {
     "value": get_week_day(),
